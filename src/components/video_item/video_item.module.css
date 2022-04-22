@@ -8,3 +8,9 @@
 .video .textArea .title{font-size: 0.9rem; line-height: 1.1; font-family: 'Ubuntu', sans-serif; font-weight: 500; color: #131313;overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; text-overflow: ellipsis;word-wrap: break-word;}
 .video:hover .textArea .title{color: rgb(201, 32, 32);}
 .video .textArea .channel{margin-top: 10px; font-size: 0.8rem; font-family: 'Ubuntu', sans-serif; font-weight: 300; color: #333;}
+
+@media screen and (max-width: 768px) { 
+    .container{width: 100%;}
+    .video{height: 100%;}
+    .video .thumbnail{height: 100%;}
+}
