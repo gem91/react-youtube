@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap');
+
+*{margin: 0; padding: 0;box-sizing: border-box;}
+
+.content{display: flex; margin: 0 auto; width: 960px;}
+.detail{flex: 1 1 70%;}
+.list{flex: 1 1 30%;}

@@ -1,4 +1,6 @@
-.container{padding: 2px; width: 50%;cursor: pointer;}
+.container{padding: 2px;cursor: pointer;}
+.container.list{width: 100%;}
+.container.grid{width: 50%;}
 .video{display: flex; align-items: center;border: 1px solid lightgray; }
 .video .thumbnail{width: 40%; overflow: hidden; font-size: 0; background-color: black;}
 .video .thumbnail .thumbImg{ width: 100%; height: 100%; object-fit: cover; opacity: .8;transition: all 250ms ease-in;}

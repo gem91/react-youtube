@@ -1,4 +1,4 @@
-.videos{display: flex; flex-wrap: wrap; margin: 0 auto; width: 960px; list-style-type: none;}
+.videos{display: flex; flex-wrap: wrap; list-style-type: none;}
 @media screen and (max-width: 768px) { 
     .videos{width: 100%;}
 }
