@@ -27,7 +27,7 @@ const SearchHeader = ({onSearch, onLogo}) => {
     return(
         <header className={styles.header}>
             <div className={styles.inner}>
-                <h1 className={styles.logo} onClick={clickLogo}><img src='/images/logo.png' alt='logo' /></h1>
+                <h1 className={styles.logo} onClick={clickLogo}><img src='./images/logo.png' alt='logo' /></h1>
                 <div className={styles.searchArea}>
                     <input ref={searchRef} className={styles.header} type="search" placeholder='Enter what you wanna watch' onKeyPress={onKeyPress}  />
                     <button className={styles.search} type='submit' onClick={onClick}>Search</button>
