@@ -1,0 +1,8 @@
+.header{border-bottom: 1px solid lightgray; background-color: #fff;}
+.inner{padding: 30px 20px; margin: 0 auto; width: 960px;}
+.logo{display: inline-block; padding-top: 4px; margin-right: 30px; width: 75px; font-size: 0; vertical-align: top;}
+.logo img{width: 100%;}
+.searchArea{display: inline-flex; width: calc(100% - 105px); font-size: 0;vertical-align: top;}
+.searchArea input{display: block; padding: 10px 15px; width: 100%; font-size: .9rem; border: 1px solid lightgray;}
+.searchArea .search{margin-left: 2px; padding: 5px 20px; color: #fff; font-size: 1rem; font-family: 'Ubuntu', sans-serif; font-weight: 500; background-color: #e62117; border: 1px solid #c9271f; border-radius: 3px; cursor: pointer;transition: all .3s ease-in;}
+.searchArea .search:hover{ background-color: #c9271f;}
