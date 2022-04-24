@@ -7,7 +7,7 @@
 .searchArea .search{margin-left: 2px; padding: 5px 20px; color: #fff; font-size: 1rem; font-family: 'Ubuntu', sans-serif; font-weight: 500; background-color: #e62117; border: 1px solid #c9271f; border-radius: 3px; cursor: pointer;transition: all .3s ease-in;}
 .searchArea .search:hover{ background-color: #c9271f;}
 
-@media screen and (max-width: 768px) { 
+@media screen and (max-width: 980px) { 
     .inner{padding: 18px 15px; width: 100%;}
     .logo{padding-top: 7px; margin-right: 15px; width: 60px;}
     .searchArea{width: calc(100% - 75px); }

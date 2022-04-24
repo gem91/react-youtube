@@ -10,7 +10,10 @@ function App({youtube}) {
   const [selectVideo, setSelectVideo] = useState(null);
   const search = keyword => {
     youtube.search(keyword)
-      .then(videos => setVideos(videos))
+      .then(videos => {
+        setVideos(videos)
+        setSelectVideo(null)
+      })
       .catch(error => console.log('error', error)); 
   }
 
@@ -22,7 +25,10 @@ function App({youtube}) {
   
    const goToMain = () => {
     youtube.mostPopular()
-      .then(videos => setVideos(videos))
+      .then(videos => {
+        setVideos(videos)
+        setSelectVideo(null)
+      })
       .catch(error => console.log('error', error)); 
   }
   
