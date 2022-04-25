@@ -9,3 +9,8 @@
 @media screen and (max-width: 980px) { 
     .content{width: 100%;}
 }
+@media screen and (max-width: 768px) { 
+    .content{display: flex; flex-direction: column; padding: 10px; width: 100%;}
+    .detail{flex: 1 1 100%;}
+    .list{flex: 1 1 100%;}
+}
