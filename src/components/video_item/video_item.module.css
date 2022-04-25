@@ -11,8 +11,9 @@
 .video:hover .textArea .title{color: rgb(201, 32, 32);}
 .video .textArea .channel{margin-top: 10px; font-size: 0.8rem; font-family: 'Ubuntu', sans-serif; font-weight: 300; color: #333;}
 
-@media screen and (max-width: 980px) { 
+@media screen and (max-width: 768px) { 
     .container.grid{width: 100%;}
     .video{height: 100%;}
     .video .thumbnail{height: 100%;}
 }
+
